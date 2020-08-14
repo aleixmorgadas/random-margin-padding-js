@@ -22,22 +22,22 @@ var randomMarginPadding = function(node) {
   var paddingRight = parseInt(style.paddingRight) || 0;
 
   var plusOrMinus = Math.random() < 0.5 ? -1 : 1;
-  node.style.marginTop = (marginTop + plusOrMinus * getRandomInt(3)) + 'px'; 
+  node.style.marginTop = (marginTop + plusOrMinus * getRandomInt(2)) + 'px'; 
   plusOrMinus = Math.random() < 0.5 ? -1 : 1;
-  node.style.marginBottom = (marginBottom + plusOrMinus * getRandomInt(3)) + 'px' ; 
+  node.style.marginBottom = (marginBottom + plusOrMinus * getRandomInt(2)) + 'px' ; 
   plusOrMinus = Math.random() < 0.5 ? -1 : 1;
-  node.style.marginLeft = (marginLeft + plusOrMinus * getRandomInt(3)) + 'px'; 
+  node.style.marginLeft = (marginLeft + plusOrMinus * getRandomInt(2)) + 'px'; 
   plusOrMinus = Math.random() < 0.5 ? -1 : 1;
-  node.style.marginRight = (marginRight + plusOrMinus * getRandomInt(3)) + 'px'; 
+  node.style.marginRight = (marginRight + plusOrMinus * getRandomInt(2)) + 'px'; 
 
   plusOrMinus = Math.random() < 0.5 ? -1 : 1;
-  node.style.paddingTop = (paddingTop + plusOrMinus * getRandomInt(3)) + 'px'; 
+  node.style.paddingTop = (paddingTop + plusOrMinus * getRandomInt(2)) + 'px'; 
   plusOrMinus = Math.random() < 0.5 ? -1 : 1;
-  node.style.paddingBottom = (paddingBottom + plusOrMinus * getRandomInt(3)) + 'px'; 
+  node.style.paddingBottom = (paddingBottom + plusOrMinus * getRandomInt(2)) + 'px'; 
   plusOrMinus = Math.random() < 0.5 ? -1 : 1;
-  node.style.paddingLeft = (paddingLeft + plusOrMinus * getRandomInt(3)) + 'px'; 
+  node.style.paddingLeft = (paddingLeft + plusOrMinus * getRandomInt(2)) + 'px'; 
   plusOrMinus = Math.random() < 0.5 ? -1 : 1;
-  node.style.paddingRight = (paddingRight + plusOrMinus * getRandomInt(3)) + 'px'; 
+  node.style.paddingRight = (paddingRight + plusOrMinus * getRandomInt(2)) + 'px'; 
 }
 
 var iterateNodes = function(nodes) {
