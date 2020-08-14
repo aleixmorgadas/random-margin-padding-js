@@ -48,8 +48,3 @@ window.onload = function() {
   var body = document.getElementsByTagName('body')[0];
   iterateNodes(body.childNodes);
 };
-
-setInterval(() => {
-  var body = document.getElementsByTagName('body')[0];
-  iterateNodes(body.childNodes);
-}, 2000);
