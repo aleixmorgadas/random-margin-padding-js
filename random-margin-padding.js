@@ -4,6 +4,11 @@ function getRandomInt(max) {
 
 
 var randomMarginPadding = function(node) {
+  // Only modify the styles for the 25% of the elements of the page
+  if (!(Math.random() <= 0.25)) {
+    return;
+  }
+
   var style = getComputedStyle(node);
 
   var marginTop = parseInt(style.marginTop) || 0;
